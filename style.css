@@ -1,0 +1,87 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .about, .projects, .skills, .contact {
+    padding: 40px 0;
+  }
+  
+  .rounded-circle {
+    width: 150px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  #links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#links ul li {
+    margin: 10px 0;
+}
+
+#links ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#links ul li a:hover {
+    color: #0056b3;
+}
+#education {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+#education h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.education-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007BFF;
+}
+
+.education-item p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.education-item strong {
+  color: #333;
+}
