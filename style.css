@@ -1,87 +1,193 @@
 /* Custom Styles */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .header {
-    background-color: #007bff;
-    color: white;
-    padding: 40px 0;
-  }
-  
-  .about, .projects, .skills, .contact {
-    padding: 40px 0;
-  }
-  
-  .rounded-circle {
-    width: 150px;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .footer a {
-    color: white;
-  }
-  #links {
-    text-align: center;
-    margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 40px 0;
+}
+
+.about, .projects, .skills, .contact {
+  padding: 40px 0;
+}
+
+.rounded-circle {
+  width: 150px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: white;
+}
+#links {
+  text-align: center;
+  margin-top: 50px;
 }
 
 #links ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 #links ul li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 #links ul li a {
-    text-decoration: none;
-    color: #007BFF;
-    font-size: 18px;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
 #links ul li a:hover {
-    color: #0056b3;
+  color: #0056b3;
 }
 #education {
-  padding: 40px;
-  background-color: #f9f9f9;
+padding: 40px;
+background-color: #f9f9f9;
 }
 
 #education h2 {
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #333;
+text-align: center;
+font-size: 2em;
+margin-bottom: 20px;
+color: #333;
 }
 
 .education-item {
-  margin-bottom: 30px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 30px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .education-item h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  color: #007BFF;
+font-size: 1.5em;
+margin-bottom: 10px;
+color: #007BFF;
 }
 
 .education-item p {
-  margin: 5px 0;
-  font-size: 1em;
-  color: #555;
+margin: 5px 0;
+font-size: 1em;
+color: #555;
 }
 
 .education-item strong {
-  color: #333;
+color: #333;
+}
+
+
+#about {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff4d4d);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+#about:hover {
+  transform: scale(1.02);
+}
+
+
+/* Skills Section Styling */
+#skills {
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+#skills:hover {
+  transform: scale(1.02);
+}
+
+/* Heading Styling */
+#skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #FFD700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+#skills h2::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background-color: white;
+  margin: 8px auto;
+  border-radius: 2px;
+}
+
+/* Subheading Styling */
+#skills h4 {
+  font-size: 22px;
+  color: #ffeb3b;
+  text-transform: uppercase;
+  margin-top: 15px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Two Column Layout - Centered */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+}
+
+/* Reduced Width and Centering */
+.skills-column {
+  width: 40%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.skills-column:hover {
+  transform: scale(1.05);
+}
+
+/* List Styling */
+.skills-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-column li, .skills-column p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
 }
